@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" href="css/cabinet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1><img src="image/Logo.png" alt="" class="headlogo"></h1>
+        <div class="cabinet-header">
+            <ul>
+                <li><a href="index.html" class="header_menu"><p>На главную</p></a></li>
+            </ul>
+            <ul>
+                <li><button class="reg"><a href="reg.html" id="logout">Выйти</a></button></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <h1>Добро пожаловать в личный кабинет</h1>
+        <div id="user-details">
+            <p id="user-info"></p> 
+        </div>
+        <div id="user-details">
+            <p id="user-info-email"></p>
+        </div>
+        <div id="messages-container" style="display: none;">
+            <h2 class="first_title">Сообщения от пользователей</h2>
+            <ul id="messages-list"></ul>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer_content">
+            <div>
+                <ul>
+                    <li><h1 class="footer_first">СТСН “ДУБКИ-2”</h1></li>
+                </ul>
+                <ul>
+                    <li><a href="news.html" class="footer_menu">Новости</a></li>
+                </ul>
+                <ul>
+                    <li><a href="documents.html" class="footer_menu">Документы</a></li>
+                </ul>
+                <ul>
+                    <li><a href="contacts.html" class="footer_menu">Контакты</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul><li><p class="footer_menu"><strong>Адрес СТСН:</strong> Владимирская область,<br> 
+                    Александровский район, СТСН Дубки-2</p></li></ul>
+                    <ul>
+                        <li><p class="footer_menu"><strong>Номер председателя:</strong> +7 999 999 99 99</p></li>
+                    </ul>
+            </div>
+            <div>
+                <img src="image/footerLogo.png" alt="" class="footer_logo">
+            </div>
+        </div>
+        <p class="prava">Все права защищены 2024</p>
+    </footer>
+    <script src="js/cabinet.js"></script>
+</body>
+</html>
